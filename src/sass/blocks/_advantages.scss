@@ -8,6 +8,10 @@
     &__block {
         text-align: center;
         margin-right: 65px;
+        width: 33%;
+        &:last-child {
+            margin: 0px auto;
+        }
         img {
             height: 70px;
         }
@@ -25,6 +29,7 @@
         font-size: 14px;
         line-height: 18x;
         a {
+            white-space: nowrap;
             color: #FF0000;
         }
     }
