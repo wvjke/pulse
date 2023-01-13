@@ -1,0 +1,30 @@
+.comments {
+    padding: 0px 100px 48px 100px;
+    &__block {
+        margin-top: 60px;
+        display: flex;
+        img {
+            height: 100%;
+        }
+    }
+    &__item {
+        margin-left: 60px;
+    }
+    &__name {
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 18px;
+        color: #0D0D0D;
+    }
+    &__text {
+        font-weight: 500;
+        font-size: 14px;
+        color: #646464;
+    }
+    &__descr {
+        margin-top: 10px;
+        font-size: 16px;
+        line-height: 22px;
+        color: #0D0D0D;
+    }
+}
