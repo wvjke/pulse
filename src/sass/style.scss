@@ -6,8 +6,10 @@
     max-width: 950px;
     margin: 0 auto;
 }
+@import 'base/animations.scss';
 @import 'blocks/modal.scss';
 @import 'blocks/promo.scss';
+@import 'blocks/pageup.scss';
 @import 'blocks/header.scss';
 @import 'blocks/buttons.scss';
 @import 'blocks/advantages.scss';
@@ -19,3 +21,4 @@
 @import 'blocks/comments.scss';
 @import 'blocks/footer.scss';
 @import 'base/media.scss';
+
